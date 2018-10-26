@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-app",
+  "name": "create-react-redux-app",
   "version": "0.1.0",
   "dependencies": {
     "react": "^16.5.2",
@@ -26,5 +26,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shankscript/create-react-redux-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shankscript/create-react-redux-app/issues"
+  },
+  "homepage": "https://github.com/shankscript/create-react-redux-app#readme"
 }

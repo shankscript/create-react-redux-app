@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <ul>{this.props.tweets.map(m => <li>m.tweet</li>)}</ul>
+          <ul>{this.props.tweets.map((m, i) => <li key={i}>{m.tweet}</li>)}</ul>
         </header>
       </div>
     );
